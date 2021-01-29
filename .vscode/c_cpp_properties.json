@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/GLFW",
+                "/usr/include/GL",
+                "/usr/lib/x86_64-linux-gnu"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu17",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-std=c++11",
+                "-lXi",
+                "-lGLEW",
+                "-lGLU",
+                "-lm",
+                "-lGL",
+                "-lm",
+                "-lpthread",
+                "-ldl",
+                "-ldrm",
+                "-lXdamage",
+                "-lX11-xcb",
+                "-lxcb-glx",
+                "-lxcb-dri2",
+                "-lglfw3",
+                "-lrt",
+                "-lm",
+                "-ldl",
+                "-lXrandr",
+                "-lXinerama",
+                "-lXxf86vm",
+                "-lXext",
+                "-lXcursor",
+                "-lXrender",
+                "-lXfixes",
+                "-lX11",
+                "-lpthread",
+                "-lxcb",
+                "-lXau",
+                "-lXdmcp",
+                "-ljpeg"
+            ]
+        }
+    ],
+    "version": 4
+}
