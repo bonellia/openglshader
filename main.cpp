@@ -100,16 +100,6 @@ void Initialize(const int &TextureWidth_, const int &TextureHeight_)
     DEFAULT_CAMERA = Camera;
 }
 
-void UpdateCamera() {}
-
-void UpdateMVPMatrix() {}
-
-void UpdateHeightFactor() {}
-
-void UpdateLightPosition() {}
-
-void UpdateTextureHorizontalShift() {}
-
 void Update()
 {
     // Cam
